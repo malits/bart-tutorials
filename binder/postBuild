@@ -1,5 +1,10 @@
 #!/bin/bash
 
+git clone https://github.com/mrirecon/bart.git
+cd bart
+make
+cd ..
+
 pip install bash_kernel
 python -m bash_kernel.install
 
@@ -7,4 +12,4 @@ pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 
 pip install jupyter_nbextensions_configurator
-jupyter nbextensions_configurator enable --user
+jupyVter nbextensions_configurator enable --user
