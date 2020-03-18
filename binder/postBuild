@@ -3,6 +3,7 @@
 git clone https://github.com/mrirecon/bart.git
 cd bart
 make
+. startup.sh
 cd ..
 
 pip install bash_kernel
