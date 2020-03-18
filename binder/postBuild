@@ -6,11 +6,11 @@ make
 . startup.sh
 cd ..
 
-pip install bash_kernel
+python -m pip install bash_kernel
 python -m bash_kernel.install
 
-pip install jupyter_contrib_nbextensions
+python -m pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 
-pip install jupyter_nbextensions_configurator
+python -m pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
