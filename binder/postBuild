@@ -17,6 +17,3 @@ jupyter nbextensions_configurator enable --user
 jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable toc2/main
 
-cd bart
-. startup.sh
-cd ..
