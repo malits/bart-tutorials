@@ -1,4 +1,5 @@
 *.cfl
 *.hdr
+*.png
 
 .ipynb_checkpoints/
