@@ -6,3 +6,6 @@ liblapacke-dev
 libpng-dev
 libopenblas-dev
 gfortran
+
+# View
+libgtk-3-dev
