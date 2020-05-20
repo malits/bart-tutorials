@@ -2,7 +2,8 @@
 
 git clone https://github.com/mrirecon/bart.git
 cd bart
-make
+PARALLEL=1 make
+. startup.sh
 cd ..
 
 python -m pip install bash_kernel
@@ -18,3 +19,13 @@ jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable toc2/main
 
 python -m pip install RISE
+
+pip install jupyter_server_proxy
+jupyter serverextension enable --py jupyter_server_proxy
+
+export GDK_DISPLAY=broadway
+export BROADWAY_DISPLAY=:05
+
+git clone https://github.com/mrirecon/view/
+cd view
+make
