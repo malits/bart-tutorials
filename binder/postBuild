@@ -23,6 +23,9 @@ python -m pip install RISE
 pip install jupyter_server_proxy
 jupyter serverextension enable --py jupyter_server_proxy
 
+mkdir -p $HOME/.jupyter/
+mv jupyter_notebook_config.py $HOME/.jupyter/
+
 export GDK_DISPLAY=broadway
 export BROADWAY_DISPLAY=:05
 
