@@ -32,3 +32,9 @@ export BROADWAY_DISPLAY=:05
 git clone https://github.com/mrirecon/view/
 cd view
 make
+cd ..
+
+git clone https://github.com/malits/bart-view-nb.git
+cd bart-view-nb
+python setup.py develop
+cd ..
