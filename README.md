@@ -13,3 +13,5 @@ The following Binder allows you to run BART code directly in your browser! Note 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malits/bart-tutorials/master)
 
+Webinar Notebook
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malits/bart-tutorials/ff40c05ceec33362bcd619f8c3eecfafd1af7d84?filepath=demos%2Fwebinar%2Fwebinar-binder.ipynb)

@@ -1,6 +1,6 @@
 #!/bin/bash
 cd bart
 . startup.sh
-python startup.py
 cd ..
+export PYTHONPATH="{$TOOLBOX_PATH}/python":$PYTHONPATH
 exec "$@"
